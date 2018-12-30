@@ -234,8 +234,19 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-figure {
+figure{
   margin-bottom: 1.5em;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  display: inline-block;
+  align-content: center;
+  border-radius: 50%;
+}
+
+/* use if need change ratio of photo*/
+.change-ratio img{
+  width:  100%;
 }
 
 .fh5co-counter .fh5co-number {
